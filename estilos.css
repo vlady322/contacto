@@ -1,0 +1,28 @@
+body{
+  background-color: coral;
+  color: rgba(9, 14, 43, 0.94);
+}
+
+input[type=text], input[type=email],  textarea   {
+  width: 70%;
+  padding: 5px 20px;
+  margin: 5px;
+  background-color: rgb(234, 200, 170);
+}
+select, input[type=number]{
+  padding: 5px 10px;
+  margin: 5px;
+  background-color: rgb(234, 200, 170);
+
+}
+input[type=submit],input[type=reset]{
+  background-color: orangered;
+  margin: 5px 10px;
+  padding: 5px 30px;
+  color: aliceblue;
+  border: 2px solid #ccc;
+border-radius: 7px;
+}
+label{
+  font-weight: 900;
+}
